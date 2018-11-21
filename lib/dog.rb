@@ -9,7 +9,8 @@ class Dog
   end
   
   def self.all 
-    @@all.each {|dog| p "#{dog.name}""}
+    @@all.each {|dog| p "#{dog.name}"}
+  end
   
   def clear_all 
     @@all.clear
